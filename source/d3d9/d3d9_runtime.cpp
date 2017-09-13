@@ -841,7 +841,7 @@ namespace reshade::d3d9
 			if (traffic > 10)
 			{
 				traffic = 0;
-				create_depthstencil_replacement(nullptr);
+				//create_depthstencil_replacement(nullptr);
 				return;
 			}
 			else
